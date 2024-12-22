@@ -68,6 +68,6 @@ this will build and run the Docker container for the app. You can then access th
 
 You can then access the app at `http://localhost:5000/api`.
 
-I didn't use the nodemon because when a user todo is create there will be a change in the todos.json file which will then prompt the app to refresh due to the file change
+I didn't use the nodemon because when a user todo is created, there will be a change in the todos.json file, which will then prompt the app to refresh due to the file change
 
 "dev": "nodemon --watch src --exec 'ts-node' -r tsconfig-paths/register --files src/server.ts",
